@@ -1,0 +1,103 @@
+#include<stdio.#include<stdio.#include<stdio.#include<stdio.h>#포함<stdio.h>#포함<stdio.h>h>#포함<stdio.h>h>h>#포함<stdio.h>
+
+int main(void)int 메인(void)int 메인(void) int 메인(void)int 메인 (void) int 메인 (void) int 메인 (void) int 메인 (void)
+{{{{{{{{
+	int num = 10;	int 번호 = 10;	int 번호 = 10; int 번호  = 10;	int num = 10, int 번호  = 10, int 번호  = 10, int 번호  = 10;
+	
+	printf("%p\n	printf ("%p\n	printf ("%p\n	printf("%p\n")	printf ("%p\n	printf("%p\n")	printf("%p\n	printf ("%p\n")", &num);", &num);", &num);", &num);"), &num);", &num);"," &num);"," &num);
+	
+	return 0;	0을 반환합니다;	return 0;	0을 반환합니다;	return 0;	0을 반환합니다;	return 0;	0을 반환합니다;
+}}}}}}}}
+
+-> 00AFF9-> 00AFF9F4F4-> 00AFF9-> 00AFF9F4F4-> 00AFF9-> 00AFF9F4F4-> 00AFF9-> 00AFF9F4F4
+
+
+#include <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.h>#포함 <stdio.h>#포함 <stdio.h>h>#포함 <stdio.h>h>h>#포함 <stdio.h>
+ 
+int main(void) {int main(void) {int main(void) {int main(void) {int main (void) {int main (void) {int main (void) {int main (void) {int main (void)}
+ 
+    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언    int num;    // 일반 변수 선언
+    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언    int * pnum;    // 포인터 선언
+    
+    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입    pnum = &num;    // 포인터에 num 주소 대입
+    *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10     *pnum = 10;    // 포인터로 변수 num에 10 
+ 
+    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n    printf("변수명으로 num 값 출력 : %d\n", num);", num);", num);", num);", num);", num);"num);"num);
+    printf("포인터로 num 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n    인쇄 ("포인터로 번호 값 출력 : %d\n", *pnum);", *pnum);", *pnum);", *pnum);", *pnum);", *pnum);", *pnum);", *pnum);", *pnum);" *pnum);" *pnum);" *pnum);" *pnum);" *pnum);" *pnum);" *pnum);
+ 
+    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;
+}}}}}}}}}}}}}}}}
+
+
+-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10-> 변수명으로 num 값 출력 : 10
+포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10포인터로 num 값 출력 : 10
+
+
+
+#include <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.#포함 <stdio.h>#포함 <stdio.h>#포함 <stdio.h>#포함 <stdio.h>#포함 <stdio.h>h>#포함 <stdio.h>h>#포함 <stdio.h>h>h>#포함 <stdio.h>h>h>h>#포함 <stdio.h>
+ 
+int main(void)int 메인(void)int 메인(void) int 메인(void)int 메인 (void) int 메인 (void) int 메인 (void) int 메인 (void)
+{{{{{{{{
+    int num = 10;    int 번호 = 10;    int 번호 = 10; int 번호  = 10;    int num = 10, int 번호  = 10, int 번호  = 10, int 번호  = 10;
+    const int* p = &num;    상수 int* p    constant int* p = # 상수 int* p    상수 int* p = # 상수 int* p 상수 int* p = # 상수 int* p
+ 
+    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러    *p = 20;    // 컴파일 에러
+ 
+    printf("변수 num : %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n", *p);", *p);", *p);", *p);", *p);", *p);", *p);", *p);
+ 
+    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;
+}}}}}}}}
+
+#include <stdio.h>#포함 <stdio.h>
+ 
+int main(void)int 메인(void)
+{{
+    int num = 10;    int 번호 = 10;    int 번호 = 10; int 번호  = 10;
+    const int* p = &num;    상수 int* p    constant int* p = # 상수 int* p
+ 
+    num = 20;    // 컴파일 성공    num = 20;    // 컴파일 성공    num = 20;    // 컴파일 성공    num = 20;    // 컴파일 성공
+ 
+    printf("변수 num : %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n    인쇄 ("변수 번호: %d\n", *p);", *p);", *p);", *p);
+ 
+    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;    return 0;    0을 반환합니다;
+}}}}}}}}
+
+-> 20-> 20-> 20-> 20-> 20-> 20-> 20-> 20
+
+int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언int x = 7;        // 변수의 선언
+
+int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언int *ptr = &x;    // 포인터의 선언
+
+int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조int *pptr = &ptr; // 포인터의 참조
+
+
+int num01 = 1234;int num01 = 1234;int num01 = 1234; int num01 = 1234;int num01 = 1234; int num01 = 1234; int num01 = 1234;
+
+double num02 = 3.14;  두 배 num02 = 3.14;  두 배 num02 = 3.14; 두 배 num02 = 3.14;  double num02 = 3.14;  두 배 num02 = 3.14;  두 배 num02 = 3.14; 두 배 num02 = 3.14;  
+
+int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;int* ptr_num01 = &num01;
+
+double* ptr_num02 = &num02;  double* ptr_num02 = &num02;  더블* ptr_num02 = &num02; 더블* ptr_num02 = &num02;  더블* ptr_num02 = &num02; 더블* ptr_num02 = &num02; 더블* ptr_num02 = &num02;  
+
+ 
+
+① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.① printf("포인터의 크기는 %d입니다.\n\n\n\n\n\n\n\n", sizeof(ptr_num01));", 의 크기(ptr_num01);", sizeof(ptr_num01));", 의 크기(ptr_num01);", sizeof(ptr_num01));", 의 크기(ptr_num01);", sizeof(ptr_num01));", 의 크기(ptr_num01);
+
+② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.② printf("포인터 ptr_num01이 가리키고 있는 주소값은 %#x입니다.\n\n\n\n\n\n\n\n", ptr_num01);", ptr_num01);", ptr_num01);", ptr_num01);", ptr_num01);", ptr_num01);", ptr_num01);", ptr_num01);
+
+③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.③ printf("포인터 ptr_num02가 가리키고 있는 주소값은 %#x입니다.\n\n\n\n\n\n\n\n", ptr_num02);", ptr_num02);", ptr_num02);", ptr_num02);", ptr_num02);", ptr_num02);", ptr_num02);", ptr_num02);
+
+printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.printf("포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 %d입니다.\n\n\n\n\n\n\n\n", *ptr_num01);", *ptr_num01);", *ptr_num01);", *ptr_num01);", *ptr_num01);", *ptr_num01);", *ptr_num01);", *ptr_num01);
+
+printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.printf("포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 %f입니다.\n\n\n\n\n\n\n\n", *ptr_num02);", *ptr_num02);", *ptr_num02);", *ptr_num02);", *ptr_num02);", *ptr_num02);", *ptr_num02);", *ptr_num02);
+
+
+-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.-> 포인터의 크기는 8입니다.
+
+포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.포인터 ptr_num01이 가리키고 있는 주소값은 0x7c255e4입니다.
+
+포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.포인터 ptr_num02가 가리키고 있는 주소값은 0x7c255e8입니다.
+
+포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.포인터 ptr_num01이 가리키고 있는 주소에 저장된 값은 1234입니다.
+
+포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 3.140000입니다.포인터 ptr_num02가 가리키고 있는 주소에 저장된 값은 3.140000입니다.
